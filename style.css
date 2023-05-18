@@ -183,7 +183,8 @@ nav .logo span{
 
 /* Recommended */
 #recommended{
-    width: 100;
+    max-width: 1200px;
+    width: 100%;
     height: 80vh;
     background-color: #f981a71e;
     padding-top: 1.5rem;
@@ -191,6 +192,7 @@ nav .logo span{
     flex-direction: column;
     justify-content: center;
     align-items: center;  
+    overflow: hidden;
 }
 #recommended ul{
     display: flex;
@@ -209,6 +211,9 @@ nav .logo span{
     /* align-items: center; */
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
+#recommended ul:first-child {
+    margin-left: 0px;
+}
 #recommended ul li a{
     align-items: center;
     text-align: center;
@@ -218,6 +223,11 @@ nav .logo span{
     width:240px;
     height: 150px;
     padding-top: 0;
+    object-fit: cover;
+    margin: 0;
+    padding-top: 5px;
+    border-radius: 10px 10px 0 0px;
+    box-shadow: 0 2px 4px #6e6d6d;
 }
 #recommended ul li a h4 {
     padding-top: 10px;
