@@ -10,7 +10,7 @@ $(document).ready(function(){
         videoSearch(API_KEY,search,15)
     })
 
-    function videoSearch(key,search,maxResults) {
+    function videoSearch(key,  search, maxResults) {
         // jq get req
         $.get("https://www.googleapis.com/youtube/v3/search?key=" + key 
         + "&type=video&part=snippet&maxResults=" + maxResults + "&q=" + search,function(data){})
