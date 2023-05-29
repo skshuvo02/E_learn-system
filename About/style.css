@@ -1,16 +1,23 @@
-#about {
+#about{
+
+    background-color: #f7c6e4;
+    /* border-radius: 10%;  */
+    padding: 40px;
+    height:80vh;
+
+}
+section #about {
     background-color: #f7c6e4;
     display: flex;
-    margin: 50px;
-    width: 65%;
-    border-radius: 10%;
-    padding: 40px;
-    opacity: 0;
-    animation: fadeIn 1s forwards;
-    -webkit-border-radius: 10%;
-    -moz-border-radius: 10%;
-    -ms-border-radius: 10%;
-    -o-border-radius: 10%;
+    justify-content: center;
+    align-items: center;
+
+    /* margin: 50px; */
+    /* width: 65%; */
+    /* padding: 40px; */
+    /* opacity: 0; */
+    /* animation: fadeIn 1s forwards; */
+   
 }
   
   .container {
